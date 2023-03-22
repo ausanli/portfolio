@@ -1,0 +1,76 @@
+.portfolio__skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    padding: 2rem;
+    margin: 4rem;
+    border-radius: 1rem;
+    background: var(--gradient-bar)
+}
+
+.portfolio__skills-content {
+    display: flex;
+    flex-direction: row;
+
+    color: #fff;
+}
+
+.portfolio__skills-content p {
+    font-family: var(--font-family);
+    font-size: 12px;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+.portfolio__skills-content h3 {
+    font-family: var(--font-family);
+    font-size: 24px;
+    line-height: 45px;
+    font-weight: 800;
+}
+.portfolio__skills_div{
+    margin-left: 100px;
+    margin-right: 100px;
+   
+}
+.portfolio__skills_list{
+    font-family: var(--font-family);
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.portfolio__skills_list_item{
+    background: url('../../assets/arrow.png') no-repeat;
+    background-size: 15px 15px;
+    padding-left: 30px;
+    margin:5px;
+    background-position: left;
+}
+
+
+@media screen and (max-width: 650px) {
+    .portfolio__skills {
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+    .portfolio__skills {
+        flex-direction: column;
+        margin: 4rem 2rem;
+    }
+
+    .portfolio__skills-content h3 {
+        font-size: 18px;
+        line-height: 32px;
+    }
+
+    .portfolio__skills_div{
+        margin-left: 45px;
+        margin-right: 45px;
+    }
+    
+}
