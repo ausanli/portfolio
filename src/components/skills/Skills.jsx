@@ -10,10 +10,12 @@ const Skills = () => {
           <ul className="portfolio__skills_list">
             <li className="portfolio__skills_list_item">JavaScript</li>
             <li className="portfolio__skills_list_item">ReactJS</li>
+            <li className="portfolio__skills_list_item">TypeScript</li>
+            <li className="portfolio__skills_list_item">Redux</li>
             <li className="portfolio__skills_list_item">HTML5</li>
             <li className="portfolio__skills_list_item">CSS</li>
             <li className="portfolio__skills_list_item">Git</li>
-            <li className="portfolio__skills_list_item">Firebase</li>
+            <li className="portfolio__skills_list_item">NodeJs</li>
             <li className="portfolio__skills_list_item">Bootstrap</li>
           </ul>
         </div>

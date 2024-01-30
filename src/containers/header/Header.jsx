@@ -12,19 +12,24 @@ const Header = () => {
           Welcome to my responsive design page!
         </h2>
         <p>
-          I&apos;m a Junior Front-End developer at DXC since December 2022.
+          I&apos;m a React Front-End developer with over a year of professional
+          experience, currently engaged in a project for the Italian Ministry.
           <p>
-            I realized my interest in technologies when I worked as a B2B
-            Technical Support assisting end users in resolving hardware and
-            software issues.
+            On a daily basis, my role involves implementing new features, with
+            an emphasis on enhancing component reusability and accessibility
+            while ensuring the technical feasibility of UI/UX designs for mobile
+            devices. I collaborate closely with cross-functional teams,
+            integrating front-end elements with server-side logic and
+            functionalities. Additionally, I'm responsible for diagnosing and
+            rectifying bugs, and I undertake code refactoring as needed to
+            enhance functionality and performance.
             <p>
-              Mostly I&apos;ve gained my programming skills during an intensive
-              JavaScript academy at Telerik. I&apos;ve also strengthened my hard
-              and soft skills having had experience in 3 group projects and some
-              personal projects.
+              Recently, I further honed my skills by completing a React Upskill
+              course offered by Telerik Academy. This additional training has
+              enriched both my technical and soft skills, as I had the
+              opportunity to collaborate with seasoned professionals during my
+              coursework experiences.
             </p>
-            My interest in software development has increased and I continue to
-            expand my knowledge every day.
           </p>
         </p>
       </div>

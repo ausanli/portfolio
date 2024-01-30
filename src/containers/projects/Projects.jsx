@@ -1,11 +1,5 @@
 import React from "react";
-import {
-  collaby,
-  cookingReactions,
-  giphy,
-  aimGame,
-  miniAnimation,
-} from "./imports";
+import { collaby, VRScans, bookingApp, aimGame, miniAnimation } from "./imports";
 import { Project } from "../../components";
 import "./projects.css";
 
@@ -13,10 +7,19 @@ const Projects = () => {
   return (
     <div className="portfolio__project section__padding" id="projects">
       <div className="portfolio__project-heading">
-        <h1 className="gradient__text">My Projects</h1>
+        <h1 className="gradient__text">Some of My Projects</h1>
       </div>
       <div className="portfolio__project-container">
         <div className="portfolio__project-container_groupA">
+          <Project
+            imgUrl={VRScans}
+            date="January, 2024"
+            text="VRScans Lazy-loading library"
+            description="Displays materials from a pre-defined REST API. It provides a mobile-friendly interface with filters, search functionality, and lazy-loading of materials. Additionally, it has integrated Auth0 Provider for user profile management,  and shopping cart functionality with Stripe integration in test mode for checkout."
+            reference="https://lazy-loading-vrscans-library-lazy-loading-vrscan-a6a3ff98f69cef.gitlab.io/"
+          />
+        </div>
+        <div className="portfolio__project-container_groupB">
           <Project
             imgUrl={collaby}
             date="August, 2022"
@@ -24,21 +27,13 @@ const Projects = () => {
             description="It is a modern solution for people and teams that allows users to share messages and images, collaborating in teams and channels."
             reference="https://collaby-3e125.web.app/"
           />
-        </div>
-        <div className="portfolio__project-container_groupB">
+
           <Project
-            imgUrl={cookingReactions}
-            date="July, 2022"
-            text="Cooking Reactions is an interactive Forum System."
-            description="Allows the users to register, create recipes, add comments, rate the recipes that they like or dislike the most."
-            reference="https://gitlab.com/te3433/web-project-2.git"
-          />
-          <Project
-            imgUrl={giphy}
-            date="July, 2022"
-            text="Giphy is a vast collection of animated GIFs."
-            description="Provides functionality for searching and uploading GIFs. The application displays the top trending GIFs, each GIF details, all uploaded GIFs, and favorite GIFs."
-            reference="https://gitlab.com/Plamen_Iliev_A37/web-project1.git"
+            imgUrl={bookingApp}
+            date="March, 2023"
+            text="Reservio - SPA booking app"
+            description="Where users can see all places, book a specific place, register, create and update places."
+            reference="https://gitlab.com/ausanli/booking-app"
           />
           <Project
             imgUrl={aimGame}

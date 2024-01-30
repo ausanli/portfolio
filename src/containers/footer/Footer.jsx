@@ -28,7 +28,7 @@ const Footer = () => {
       </div>
 
       <div className="portfolio__footer-copyright">
-        <p>@2023 Anna_Usanli_Portfolio.</p>
+        <p>@2024 Anna_Usanli_Portfolio.</p>
       </div>
     </div>
   );

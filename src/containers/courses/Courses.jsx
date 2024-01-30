@@ -4,12 +4,16 @@ import "./courses.css";
 
 const coursesData = [
   {
-    title: "Alpha JavaScript Track, Telerik Academy (2022)",
-    text: "JavaScript • OOP • Data Structures & Algorithms • React",
+    title: "UpSkill React, Telerik Academy (2024)",
+    text: "React • Redux • testing • CI/CD • Performance & Optimisation ",
   },
   {
     title: "Java Corporate Training, Software University (2023)",
     text: "Java Advanced • Java OOP",
+  },
+  {
+    title: "Alpha JavaScript Track, Telerik Academy (2022)",
+    text: "JavaScript • OOP • Data Structures & Algorithms • React",
   },
 ];
 
